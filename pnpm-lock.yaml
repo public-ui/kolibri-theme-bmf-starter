@@ -14,9 +14,6 @@ importers:
       '@eslint/js':
         specifier: 9.15.0
         version: 9.15.0
-      '@playwright/test':
-        specifier: 1.49.0
-        version: 1.49.0
       '@public-ui/components':
         specifier: 2.1.8
         version: 2.1.8(adopted-style-sheets@1.1.5-rc.4)
@@ -53,9 +50,6 @@ importers:
       npm-run-all2:
         specifier: 7.0.1
         version: 7.0.1
-      playwright:
-        specifier: 1.49.0
-        version: 1.49.0
       postcss:
         specifier: 8.4.49
         version: 8.4.49
@@ -677,11 +671,6 @@ packages:
 
   '@playwright/test@1.47.2':
     resolution: {integrity: sha512-jTXRsoSPONAs8Za9QEQdyjFn+0ZQFjCiIztAIF6bi1HqhBzG9Ma7g1WotyiGqFSBRZjIEqMdT8RUlbk1QVhzCQ==}
-    engines: {node: '>=18'}
-    hasBin: true
-
-  '@playwright/test@1.49.0':
-    resolution: {integrity: sha512-DMulbwQURa8rNIQrf94+jPJQ4FmOVdpE5ZppRNvWVjvhC+6sOeo28r8MgIpQRYouXRtt/FCCXU7zn20jnHR4Qw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -6016,10 +6005,6 @@ snapshots:
   '@playwright/test@1.47.2':
     dependencies:
       playwright: 1.47.2
-
-  '@playwright/test@1.49.0':
-    dependencies:
-      playwright: 1.49.0
 
   '@public-ui/components@2.1.8(adopted-style-sheets@1.1.5-rc.4)':
     dependencies:
